@@ -16,7 +16,7 @@ const App = () => {
       <CartProvider>
         <SearchProvider>
 
-          <Router baseUrl="/cars">
+          <Router>
             <Suspense fallback={<h1 className='App_loading_h'>Loading...</h1>}>
               <LazyNavbar />
               <Routes>
