@@ -1,0 +1,10 @@
+.Home__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: linear-gradient(90deg, rgba(197, 197, 197, 1) 0%, rgba(83, 94, 148, 1) 29%, rgba(56, 70, 144, 1) 40%, rgba(56, 70, 144, 1) 57%, rgba(81, 91, 144, 1) 67%, rgba(191, 191, 191, 1) 100%);
+}

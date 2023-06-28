@@ -1,0 +1,53 @@
+.welcome__section {
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/model_s.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.welcome__section h1 {
+    flex: 2;
+    font-family: var(--font-roboto);
+    font-size: 40px;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+}
+
+.welcome__section h2 {
+    position: relative;
+    bottom: 0px;
+    flex: 0.3;
+    width: 100%;
+    font-family: var(--font-roboto);
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    padding-bottom: 20px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.welcome__section h2 span {
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 450px) {
+    .welcome__section h1 {
+        font-size: 30px;
+    }
+
+    .welcome__section h2 {
+        font-size: 18px;
+    }
+}

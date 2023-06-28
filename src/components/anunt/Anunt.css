@@ -1,0 +1,203 @@
+.anunt__page-container{
+    width:80%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 4rem;
+    
+    background:rgba(0, 0, 0, 0.415);
+    border-right: 1px solid rgb(33, 33, 33);
+    border-left: 1px solid rgb(42, 42, 42);
+    border-radius: 20px;
+}
+.anunt__content-container{
+    width: 100%;
+    height: 250px; 
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border:1px solid rgb(91, 91, 91);
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    margin:2rem 0;
+}
+.anunt__img-div{
+    height: 249px;
+    width: 100%;
+    max-width: 450px;
+    overflow: hidden;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 19px 0 0 19px;
+    border-right: 1px solid rgb(91, 91, 91);
+}
+.anunt__img-div span{
+    width:100%;
+    height: 100%;
+}
+.anunt__img-div a{
+    width:100%;
+    height:100%;
+}
+.imaaa{
+    width:100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.anunt__text-div{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 20px 20px 0;
+}
+.anunt__text-div_title{
+    width:100%;
+    height: 100%;
+    max-height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:1rem;
+    font-family: var(--font-roboto);
+    font-size: 30px;
+    font-weight: 300; 
+    border-bottom: 1px solid gray;
+}
+.anunt__text-div_title span{
+    font-size: 25px;
+}
+.anunt__text-div_info{
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.anunt__text-div_info p{
+    font-family: var(--font-roboto);
+    font-size: 17px;
+    font-weight: 300;
+    border: 1px solid rgb(190, 190, 190);
+    box-shadow: 0 0 2px rgb(182, 182, 182);
+    border-radius: 20px;
+    padding: 5px 15px;
+    margin:10px 20px;
+}
+.anunt__text-div_info p span{
+    font-weight: 400;
+}
+.anunt__text-div_info a{
+    padding: 5px 15px;
+    margin:10px;
+    border:1px solid gray;
+    border-radius: 16px;
+    background:linear-gradient(rgb(48, 73, 187),rgb(51, 51, 153));
+    box-shadow: 0 0 2px rgb(0, 10, 87);
+    font-size: 18px;
+    color: white;
+    font-family: var(--font-roboto);
+}
+.anunt__text-div_info a:active{
+    background:linear-gradient(rgb(51, 51, 153),rgb(48, 73, 187));
+}
+@media screen and (min-width:1600px){
+    .anunt__page-container{
+        max-width: 2000px;
+      }
+    .anunt__page-container{
+       padding: 4rem 9rem;
+    }
+}
+@media screen and (max-width:1360px){
+    .anunt__text-div_info{
+        padding: 5px;
+    }
+    .anunt__text-div_info p{
+        padding: 3px 10px;
+        margin:5px 10px 0 5px;
+    }
+    .anunt__text-div_info button{
+        margin:5px;
+    }
+    .anunt__text-div_title{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .anunt__text-div_title span{
+        font-size: 23px;
+        font-weight: 300;
+    }
+}
+@media screen and (max-width:1220px){
+    .anunt__page-container{
+       width:90%;
+     }
+}
+@media screen and (max-width:1040px){
+    .anunt__page-container{
+       width:95%;
+       padding: 1rem;
+     }
+}
+@media screen and (max-width:870px){
+    .anunt__page-container{
+       width:100%;
+       padding: 0;
+     }
+     .anunt__text-div_title{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .anunt__text-div_title span{
+        font-size: 19px;
+        font-weight: 300;
+    }
+    .anunt__text-div_info{
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .anunt__text-div_info p{
+        padding: 1px 8px;
+        margin:5px 10px 0 5px;
+    }
+}
+@media screen and (max-width:736px){
+    .anunt__page-container{
+        width:80%;
+      }
+     .aintro__container h1{
+        font-size: 29px;
+    }
+    .anunt__content-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        box-shadow: none;
+        height: 100%;
+    }
+    .anunt__text-div{
+         max-width:449.333px;
+         border-radius: 0 0 20px 20px;
+    }
+    .anunt__img-div{
+        border-radius: 20px 20px 0 0 ;
+    }
+}
+@media screen and (max-width:500px){
+    .anunt__page-container{
+        width:100%;
+        padding: 5px;
+      }
+}

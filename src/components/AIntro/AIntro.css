@@ -1,0 +1,18 @@
+.aintro__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.498), rgba(0, 0, 0, 0));
+}
+.aintro__container h1{
+    font-family:var(--font-roboto);
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding-bottom:10px;
+    font-style: italic;
+}
