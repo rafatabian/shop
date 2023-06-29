@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer__main-div">
       <h1>Contact</h1>
-      <p>rata.fabian1@gmail.com</p>
+      <p>fabianrwork@gmail.com</p>
       <h2>Images used in this website are the property of
         <Link className="home__brands_links" to={"https://www.audi.co.uk/uk/web/en.html"}> Audi </Link>
         <Link className="home__brands_links" to={"https://www.bmw.co.uk/en/index.html"}> BMW </Link>
